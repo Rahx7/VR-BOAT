@@ -1025,6 +1025,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ThumStickBoat",
+                    "type": "Value",
+                    "id": "eb762697-c77d-44be-a07f-06082e14eb69",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1069,6 +1078,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d5a1909-94c3-42e8-985d-ea5ae773a721",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumStickBoat",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
